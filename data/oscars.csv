@@ -1,0 +1,84 @@
+Year,Movie,Rotten Tomatoes Critic Score,Rotten Tomatoes User Score,Oscar
+2016,The Revenant,0.83,0.86,Pending
+2016,Brooklyn,0.98,Not applicable,Pending
+2016,The Big Short,0.88,0.89,Pending
+2016,The Martian,0.92,Not applicable,Pending
+2016,Bridge of Spies,0.91,0.88,Pending
+2016,Mad Max: Fury Road,0.97,0.86,Pending
+2016,Room,0.96,0.94,Pending
+2016,Spotlight,0.96,0.95,Pending
+2015,Birdman,0.92,0.78,YES
+2015,American Sniper,0.72,0.85,NO
+2015,Boyhood,0.98,0.81,NO
+2015,The Grand Budapest Hotel,0.92,0.86,NO
+2015,The Imitation Game,0.90,0.92,NO
+2015,Selma,0.99,0.86,NO
+2015,The Theory of Everything,0.80,0.84,NO
+2015,Whiplash,0.94,0.94,NO
+2014,12 Years a Slave,0.96,0.90,YES
+2014,American Hustle,0.93,0.74,NO
+2014,Captain Phillips,0.93,0.89,NO
+2014,Dallas Buyers Club,0.94,0.91,NO
+2014,Gravity,0.97,0.80,NO
+2014,Her,0.94,0.82,NO
+2014,Nebraska,0.91,0.83,NO
+2014,Philomena,0.92,0.89,NO
+2014,The Wolf of Wall Street,0.77,0.82,NO
+2013,Argo,0.96,0.90,YES
+2013,Amour,0.93,0.82,NO
+2013,Beasts of the Southern Wild,0.86,0.76,NO
+2013,Django Unchained,0.88,0.91,NO
+2013,Les Misérables,0.70,0.79,NO
+2013,Life of Pi,0.86,0.84,NO
+2013,Lincoln,0.90,0.81,NO
+2013,Silver Linings Playbook,0.92,0.86,NO
+2013,Zero Dark Thirty,0.93,0.80,NO
+2012,The Artist,0.97,0.87,YES
+2012,The Descendants,0.89,0.79,NO
+2012,Extremely Loud and Incredibly Close,0.46,0.61,NO
+2012,The Help,0.76,0.89,NO
+2012,Hugo,0.94,0.78,NO
+2012,Midnight in Paris,0.93,0.83,NO
+2012,Moneyball,0.94,0.86,NO
+2012,Tree of Life,0.84,0.60,NO
+2012,War Horse,0.77,0.74,NO
+2011,The King's Speech ,0.95,0.92,YES
+2011,Black Swan ,0.87,0.84,NO
+2011,The Fighter,0.90,0.89,NO
+2011,Inception,0.86,0.91,NO
+2011,The Kids Are All Right ,0.93,0.73,NO
+2011,127 Hours,0.93,0.85,NO
+2011,The Social Network,0.96,0.86,NO
+2011,Toy Story 3,0.99,0.89,NO
+2011,True Grit ,0.96,0.85,NO
+2011,Winter's Bone ,0.94,0.76,NO
+2010,The Hurt Locker,0.98,0.84,YES
+2010,Avatar,0.83,0.82,NO
+2010,The Blind Side,0.66,0.85,NO
+2010,District 9,0.90,0.82,NO
+2010,An Education,0.94,0.80,NO
+2010,Inglourious Basterds,0.89,0.87,NO
+2010,Precious,0.91,0.81,NO
+2010,A Serious Man,0.89,0.67,NO
+2010,Up,0.98,0.90,NO
+2010,Up in the Air,0.91,0.79,NO
+2009,Slumdog Millionaire,0.92,0.90,YES
+2009,The Curious Case of Benjamin Button,0.72,0.80,NO
+2009,Frost/Nixon,0.92,0.88,NO
+2009,Milk,0.94,0.89,NO
+2009,The Reader,0.61,0.79,NO
+2008,No Country for Old Men,0.93,0.86,YES
+2008,Atonement,0.83,0.80,NO
+2008,Juno,0.94,0.88,NO
+2008,Michael Clayton,0.90,0.69,NO
+2008,There Will Be Blood,0.91,0.86,NO
+2007,Babel,0.69,0.77,NO
+2007,The Departed,0.91,0.94,YES
+2007,Letters from Iwo Jima,0.91,0.86,NO
+2007,Little Miss Sunshine,0.91,0.91,NO
+2007,The Queen,0.97,0.76,NO
+2006,Crash,0.75,0.88,YES
+2006,Brokeback Mountain,0.87,0.82,NO
+2006,Capote,0.90,0.81,NO
+2006,"Good Night, and Good Luck",0.93,0.83,NO
+2006,Munich,0.78,0.83,NO
