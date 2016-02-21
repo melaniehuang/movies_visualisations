@@ -1,8 +1,8 @@
 // var x;
 var oCSV;
-var barWidth = 1000;
-var barHeight = 32;
-var gap = 4;
+var barWidth = 600;
+var barHeight = 120;
+var gap = 2;
 //colors
 var oscarsGold = "#b7a261"
 
@@ -17,24 +17,44 @@ function setup() {
   var totalHeight = (barHeight * oCSV.getRowCount()) + (gap * oCSV.getRowCount());
   createCanvas(windowWidth, totalHeight);
   noLoop();
+  rectMode(CENTER);
 }
 
 function draw(){
   background("#eee");
-  fill(oscarsGold);
+  
+  fill(200);
   noStroke();
   for (var i = 0; i < oCSV.getRowCount(); i++) {
   	var movie = oCSV.getRow(i);
     var title = movie.getString(1);
-    var user = movie.getNum(6);
+    var critic = movie.getNum(5);
 
-    rect((windowWidth/2)-(barWidth/2),(barHeight*i)+(gap*i), user*barWidth, barHeight);
+    var winners = movie.getString(2);
+         
+    var ratingDiff =  critic - movie.getNum(6);
+    print(ratingDiff);
+
+    if (winners == "W"){
+    	fill(255,237,0);
+    }
+
+    rect((windowWidth/2),60+(barHeight*i)+(gap*i), critic*barWidth, barHeight);
     
-    fill(255);
-    textSize(14);
-    textAlign(LEFT);
-    text(title, 20 + (windowWidth/2)-((barWidth/2)), (barHeight*i)+(gap*i)+22);
-    fill(oscarsGold);
-  };
+    if (ratingDiff < -0.05){
+    	fill("#1abc9c");
+    } else if (ratingDiff > 0.05){
+    	fill("#e74c3c");
+    } else {
+    	fill(150);
+    }
 
+    rect((windowWidth/2),60+(barHeight*i)+(gap*i), ratingDiff*barWidth, barHeight);
+
+    fill(255);
+    textSize(22);
+    textAlign(CENTER);
+    text(title, windowWidth/2, (barHeight*i)+(gap*i)+(barHeight/2+6));
+    fill(200);
+  };
 }
