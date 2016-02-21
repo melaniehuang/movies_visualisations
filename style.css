@@ -2,13 +2,3 @@ body {
   padding: 0; 
   margin: 0;
 }
-
-.chart rect {
-  fill: steelblue;
-}
-
-.chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
-}
