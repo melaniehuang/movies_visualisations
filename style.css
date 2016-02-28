@@ -2,3 +2,37 @@ body {
   padding: 0; 
   margin: 0;
 }
+
+#container {
+	width: 1200px;
+}
+
+.row {
+	display:inline-block;
+	width:100%;
+	border-top:1px dotted #000;
+}
+
+.lastRow {
+	display:inline-block;
+	width:100%;
+	border-top:1px dotted #000;
+	border-bottom:1px dotted #000;
+}
+
+.circle {
+	display:inline-block;
+	border-radius: 12px;
+	border: 2px solid #000;
+
+	width: 12px;
+	height: 12px;
+	background-color: rgb(255,237,0);
+}
+
+.black {
+	display:inline-block;
+	width: 100px;
+	height: 40px;
+	background-color: #000;
+}

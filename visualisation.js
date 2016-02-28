@@ -85,11 +85,23 @@ function renderRatings(m, i){
     fill(241, 246, 25);
     ellipse(startingPoint,(barHeight*i)+(barHeight/2),12,12);
   }
-    
-
-
 }
 
 function draw(){
-  
+  var reps = 4; 
+  var x1 = random(0,windowWidth);
+  var x2 = x1 + random(-2,2);
+  var y1 = random(0,windowHeight);
+  var y2 = y1 + random(-2,2);
+
+  if (frameCount == 10){
+     stroke(0);
+     
+  }
+
+  line(x1,y1,x2,y2); 
+  noStroke();
 }
+
+//get different coords to disappear upon draw
+// apply to entire canvas, not just window
