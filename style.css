@@ -1,38 +1,27 @@
 body {
   padding: 0; 
   margin: 0;
+  font-family: sans-serif;
 }
 
-#container {
-	width: 1200px;
+#myCanvas {
+  position: absolute;  
+  z-index: 0;
 }
 
-.row {
-	display:inline-block;
-	width:100%;
-	border-top:1px dotted #000;
+#myList {
+  position: absolute;
+  z-index: 1;
 }
 
-.lastRow {
-	display:inline-block;
-	width:100%;
-	border-top:1px dotted #000;
-	border-bottom:1px dotted #000;
+.bold {
+  font-weight: bold;
 }
 
-.circle {
-	display:inline-block;
-	border-radius: 12px;
-	border: 2px solid #000;
-
-	width: 12px;
-	height: 12px;
-	background-color: rgb(255,237,0);
-}
-
-.black {
-	display:inline-block;
-	width: 100px;
-	height: 40px;
-	background-color: #000;
+p {
+  height:26px;
+  padding-top:14px;
+  padding-left:14px;
+  margin:0px;
+  font-size: 12px;
 }
