@@ -18,7 +18,8 @@ body {
   font-weight: bold;
 }
 
-p {
+.bar {
+  width:1000px;
   height:26px;
   padding-top:14px;
   padding-left:14px;

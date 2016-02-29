@@ -17,6 +17,7 @@ function setup() {
   var totalHeight = barHeight * oCSV.getRowCount();
   canvas = createCanvas(windowWidth, totalHeight);
   canvas.parent('myCanvas');
+
   //noCanvas();
   
   background(241, 246, 25);
@@ -32,8 +33,11 @@ function setup() {
   hideButton.mousePressed(hideAll);
   
   revealAll();
+
   var titles = selectAll('p');
-  titles.hide();
+  for (var p = 0; p < titles.length; p++){
+    titles[p].hide();
+  }
 
   for (var i = 0; i < oCSV.getRowCount(); i++) {   
     strokeWeight(1);
@@ -47,7 +51,11 @@ function setup() {
 }
 
 function revealAll() {
-    //selectAll('p').show();
+    var titles = selectAll('p');
+    
+    for (var p = 0; p < titles.length; p++){
+      titles[p].show();
+    }
     
     for (var i = 0; i < oCSV.getRowCount(); i++) {   
       
@@ -71,8 +79,8 @@ function revealAll() {
 
       var titleP = createP(movie.getString(1) + '  |  ' + movie.getString(0) + ' ' + won + '  |  Won ' + movie.getString(3) + ' / ' + movie.getString(4) + ' oscars  |  $' + budget + 'm budget  |  ' + movie.getString(9) + '% return' , 20, (barHeight*i)+(barHeight/2+5));
       titleP.id("title" + i);
+      titleP.class("bar");
       titleP.parent('myList');
-
 
       if (movie.getString(2) == "W"){
         titleP.addClass('bold');
@@ -83,7 +91,11 @@ function revealAll() {
 }
 
 function hideAll() {
-  //selectAll('p').hide();
+  var hideTitles = selectAll('p');
+
+  for (var p = 0; p < hideTitles.length; p++){
+    hideTitles[p].hide();
+  }
 }
 
 function renderRatings(m, i){
@@ -123,10 +135,7 @@ function renderRatings(m, i){
   strokeWeight(1);
 }
 
-function mouseMoved() {
-  var i = Math.round(mouseY/barHeight); 
-  
-  console.log(i);
-}
+//var mousePos = round(map(mouseY, 0, 40, -0.5, 0.5));
+
 
 
