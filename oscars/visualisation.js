@@ -25,11 +25,11 @@ function setup() {
   noStroke();
 
   showButton = createButton('Show all');
-  showButton.position(windowWidth-70,10);
+  showButton.position(windowWidth-90,10);
   showButton.mousePressed(revealAll);
 
   hideButton = createButton('Hide all');
-  hideButton.position(windowWidth-130,10);
+  hideButton.position(windowWidth-160,10);
   hideButton.mousePressed(hideAll);
   
   //revealAll();
