@@ -1,0 +1,8 @@
+Experimenting with p5 and visualisations.
+
+1. Visualisation of Academy Award "Best Picture" nominated movies, comparing their Rotten Tomato critic scores with their Rotten Tomato user scores.
+The dataset was created by hand, feel free to use it. It's an amalgamation of RT, MovieDB and Google. 
+
+2. Visualisation of At the Movies' wonderful David and Margaret and their prolific critic careers. 
+Dataset was provided from ABC News for the time period of 2004 - 2014.
+
