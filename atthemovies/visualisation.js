@@ -25,15 +25,10 @@ function setup() {
     var ratingBar = (barWidth/10)*finalRating;
     'http://p5js.org/', 'this is a link'
 
-    var buttonBar = createA(movieReview.getString(1), movieTitle + "  " + finalRating);
-   
-    //buttonBar.position(0, barHeight*i);
-   
-    //buttonBar.size(ratingBar*2, barHeight);
-    buttonBar.parent('myList');
+    var moviesList = createA(movieReview.getString(1), movieTitle + "  " + finalRating);
+    moviesList.parent('myList');
 
     //TODO: 1925 movies over 27 years
-    //TODO: Fix alignment of a
     //TODO: Visualise better
     //"$9.99","http://www.abc.net.au/atthemovies/txt/s2658175.htm","9 September 2009","17/09/2009","","74","Animation","","Tatia Rosenthal","English","Icon","4","3.5"
   }
