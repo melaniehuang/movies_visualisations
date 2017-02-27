@@ -55,7 +55,7 @@ function setup() {
       won = "Nominee";
     }
 
-    var titleP = createP(movie.getString(1) + '  |  ' + movie.getString(0) + ' ' + won + '  |  Won ' + movie.getString(3) + ' / ' + movie.getString(4) + ' oscars  |  US$' + budget + 'm budget  |  ' + Math.round(parseFloat(movie.getString(9))*100) + '% return' , 20, (barHeight*i)+(barHeight/2+5));
+    var titleP = createP(movie.getString(1) + '  |  ' + movie.getString(0) + ' ' + won + '  |  Won ' + movie.getString(3) + ' / ' + movie.getString(4) + ' oscars  |  US$' + budget + 'm budget  |  ' + Math.round(parseFloat(movie.getString(9))*10000) + '% return' , 20, (barHeight*i)+(barHeight/2+5));
     titleP.id("title" + i);
     titleP.class("bar animated fadeIn");
     titleP.parent('myList');
