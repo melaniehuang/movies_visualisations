@@ -9,7 +9,7 @@ var hideButton;
 var oscarsGold = "#b7a261"
 
 function preload() {
-  oCSV = loadTable("data/oscars.csv", "csv", "header");
+  oCSV = loadTable("https://raw.githubusercontent.com/melaniehuang/movies_visualisations/master/oscars/data/oscars.csv", "csv", "header");
   print("Loaded CSV!");  
 }
 
@@ -25,11 +25,11 @@ function setup() {
   noStroke();
 
   showButton = createButton('Show all');
-  showButton.position(windowWidth-90,10);
+  showButton.class('show_all');
   showButton.mousePressed(revealAll);
 
   hideButton = createButton('Hide all');
-  hideButton.position(windowWidth-160,10);
+  hideButton.class('hide_all');
   hideButton.mousePressed(hideAll);
   
   //revealAll();
